@@ -5,8 +5,8 @@
     "vite": "^4.3.4"
   },
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/tailwind.css -o ./output/style.css --minify --watch",
-    "build": "vite",
+    "build": "npx tailwindcss -i ./src/tailwind.css -o ./output/style.css --minify --watch",
+    "dev": "vite",
     "ready": "vite build"
   }
 
