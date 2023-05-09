@@ -6,8 +6,7 @@
   },
   "scripts": {
     "build": "npx tailwindcss -i ./src/tailwind.css -o ./output/style.css --minify --watch",
-    "dev": "vite",
-    "ready": "vite build"
+    "dev": "vite"
   }
 
 }
