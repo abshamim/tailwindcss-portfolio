@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
+:root{
+    --baseFont: 'Josefin Sans', sans-serif
+}
 body{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: var(--baseFont);
 }
 .brand-yellow{
     @apply text-[#FCA61F];
